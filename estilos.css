@@ -1,0 +1,94 @@
+header{
+  position: fixed;
+  height:50px;
+  width:100%;
+}
+
+.links a{
+  color: rgba(0, 0, 0, 1);
+  font-size: 13px;
+  font-family: arial,sans-serif;
+  display: inline-block;
+}
+#mail{
+  position: fixed;
+  left: 1005px;
+  top: 12px;
+}
+#imag{
+  position: fixed;
+  left: 1055px;
+  top: 12px;
+}
+
+.Apps {
+  position: fixed;
+  left: 1135px;
+  top: 15px;
+  height: 16px;
+  width: 16px;
+  background-size: 16px 16px;
+  background-image: url("apps.png");
+  display: inline-block;
+}
+
+.notificaciones{
+  position: fixed;
+  left: 1170px;
+  top: 15px;
+  height: 17px;
+  width: 17px;
+  background-size: 17px 17px;
+  background-image: url("noti.png");
+  display: inline-block;
+}
+
+.logbut{
+  background-color: rgb(66, 133, 244);
+  position: fixed;
+  left: 1200px;
+  top: 10px;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-control {
+  width: 400px;
+  height: 34px;
+  position: fixed;
+  top: 50;
+  bottom: 350px;
+  right: 0px;
+  left: 400px;
+
+}
+
+.input-group-text{
+  background-image: url("mic.png");
+  background-size: 24px;
+  width: 34px;
+  height: 34px;
+  position: fixed;
+  top: 50;
+  bottom: 350px;
+  right: 0px;
+  left: 800px;
+  region-fragment: break;
+
+}
