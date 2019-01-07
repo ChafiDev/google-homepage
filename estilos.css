@@ -51,6 +51,75 @@ header{
   color: white;
 }
 
+main{
+}
+
+.sd{
+  flex: 1;
+  display: flex;
+  padding: 39px 460px 0 16px;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  position: fixed;
+  top: 315px;
+  left: 405px;
+  width: 460px;
+  height: 39px;
+}
+#serbox{
+  border: none;
+  background-color: transparent;
+  width: 420px;
+  height: 34px;
+  position: fixed;
+  top: 320px;
+  left: 415px;
+  outline: none;
+}
+
+.mic{
+  background: url(mic.png) 0 0 no-repeat;
+  height: 24px;
+  width: 24px;
+  background-size: 24px;
+  vertical-align: middle;
+  position: fixed;
+  top: 325px;
+  left: 845px;
+}
+
+.botones{
+  display: block;
+  padding-top: 18px;
+  position: absolute;
+  top: 365px;
+  left: 400px;
+  width: 487px;
+  height: 58px;
+  z-index: 0;
+  border: 1px;
+}
+center{
+  display: block;
+  text-align: -webkit-center;
+}
+.bots{
+  background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+  cursor: default;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 11px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+  height: 36px;
+  line-height: 27px;
+}
 
 
 
